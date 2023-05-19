@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int a = 5;
+    int b = 10;
+    int min;
+    if (a > b) {
+        min = b;
+    } else {
+        min = a;
+    }
+    // (expression) ? true_statement : false_statement;
+    int min = (a > b) ? b : a;
+    return 0;
+}

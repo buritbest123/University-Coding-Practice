@@ -1,0 +1,6 @@
+Simple Customer 
+1 200
+2 3
+3 1
+4 5
+CASH::4000

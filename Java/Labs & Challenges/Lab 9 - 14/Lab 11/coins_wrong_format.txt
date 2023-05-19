@@ -1,0 +1,5 @@
+0.01 penny 
+0.05 nickel
+0.10 dime
+0.25 quarter
+1.00 dollar

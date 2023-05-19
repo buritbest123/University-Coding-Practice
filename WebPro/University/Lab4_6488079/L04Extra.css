@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27, 27);
+}
+.container1{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1079px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:lightgrey    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 0px;
+}
+.card-image1 {
+    background-color: #d0d8db;
+    margin-bottom: 15px;
+    height:300px;
+    background-image: url('okabe.jpg');
+    background-size: cover;
+}
+
+.card-image2 {
+    background-color: #c66868;
+    margin-bottom: 15px;
+    height:300px;
+    background-image: url('Makise.jpg');
+    background-size: cover;
+}
+.card-image3 {
+    background-color: #75a9bf;
+    margin-bottom: 15px;
+    height:300px;
+    background-image: url('Mayushi.jpg');
+    background-size: cover;
+}
+.card-image4 {
+    background-color: #729179;
+    margin-bottom: 15px;
+    height:300px;
+    background-image: url('Daru.jpg');
+    background-size: cover;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.card a{
+    background-color:black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

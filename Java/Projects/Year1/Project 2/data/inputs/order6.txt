@@ -1,0 +1,6 @@
+Funny_N@me (funny@mail.com, 10700)
+1 200
+2 3
+3 1
+4 5
+CASH::5005

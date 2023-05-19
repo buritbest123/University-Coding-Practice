@@ -1,0 +1,5 @@
+Sale person: <Burit Sihabut>
+Purchase Amount: 	9.99
+Payment Amount: 	11.0
+Change Amount: 		1.01
+

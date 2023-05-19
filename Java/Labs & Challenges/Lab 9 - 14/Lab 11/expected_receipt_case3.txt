@@ -1,0 +1,4 @@
+Sale person: <YOUR NAME>
+Purchase Amount: 	19.99
+Payment Amount: 	0.0
+NOTE: Insufficient payment, please insert more coins.

@@ -1,0 +1,56 @@
+#include <stdio.h>
+int main() {
+    // Input: 1) price and 2) membership status
+    // Output: total price or discounted price
+    float price;
+    scanf("%f", &price);
+    char mem;  // 'y' - member, 'n' - non-member
+    scanf(" %c", &mem);
+    // printf("price=%f", price);
+    // printf("mem=%c", mem);
+    // // Check for membership status?
+    // if (mem == 'y') {
+    //     int age;
+    //     scanf("%d", &age);
+    //     if (age > 60) {
+    //         // Give 20% discount
+    //         price *= 0.8;
+    //     } else {
+    //         // Give 10% discount
+    //         price *= 0.9;
+    //     }
+    // } else {
+    //     int pay_by_cash;  // 1 - yes, 0 - no
+    //     scanf("%d", &pay_by_cash);
+    //     if (pay_by_cash == 1) {
+    //         // Give 5% discount
+    //         price *= 0.95;
+    //     }
+    // }
+    // Check for membership status?
+    switch (mem) {
+        case 'y':
+            int age;
+            scanf("%d", &age);
+            if (age > 60) {
+                // Give 20% discount
+                price *= 0.8;
+            } else {
+                // Give 10% discount
+                price *= 0.9;
+            }
+            break;
+        case 'n':
+            int pay_by_cash;  // 1 - yes, 0 - no
+            scanf("%d", &pay_by_cash);
+            if (pay_by_cash == 1) {
+                // Give 5% discount
+                price *= 0.95;
+            }
+            break;
+        default:
+            printf("Invalid input\n");
+    }
+    printf("%f", price);
+    return 0;
+}

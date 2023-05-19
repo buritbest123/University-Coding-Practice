@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basic Loop</title>
+</head>
+
+<body>
+    <script>
+        // Create a new array named friends.
+        let friends = new Array('Tingting', 'Janice', 'Berry', 'Pond');
+        console.log('Using for loop');
+        // Create a new method named displayItems() that reports the array's elements to the console.
+        Array.prototype.displayItems = function () {
+            for (var i = 0; i < this.length; i++) {
+                console.log(this[i] + "");
+            }
+        }
+            // Your code here
+            // Using the custom displayItems() function, log the items in the friends array.
+            friends.displayItems();
+    </script>
+</body>
+
+</html>

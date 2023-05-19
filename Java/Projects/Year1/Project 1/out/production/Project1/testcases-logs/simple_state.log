@@ -1,0 +1,1681 @@
+======================= T:0=======================
+[Waiting-to-Enter Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D1 queues up at Bamboo Shop
+======================= T:1=======================
+[Waiting-to-Enter Queue]: D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D1 orders from Bamboo Shop, and will need to wait for 9 periods.
+@D2 queues up at PigPan Deli
+======================= T:2=======================
+[Waiting-to-Enter Queue]: D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1
+[Food Stall: PigPan Deli]: D2
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D2 orders from PigPan Deli, and will need to wait for 9 periods.
+@D3 queues up at BlueMART Vending Machine
+======================= T:3=======================
+[Waiting-to-Enter Queue]: D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1
+[Food Stall: PigPan Deli]: D2
+[Food Stall: BlueMART Vending Machine]: D3
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D3 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+@D4 queues up at Bamboo Shop
+======================= T:4=======================
+[Waiting-to-Enter Queue]: D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4
+[Food Stall: PigPan Deli]: D2
+[Food Stall: BlueMART Vending Machine]: D3
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D5 queues up at PigPan Deli
+======================= T:5=======================
+[Waiting-to-Enter Queue]: D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4
+[Food Stall: PigPan Deli]: D2-D5
+[Food Stall: BlueMART Vending Machine]: D3
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D6 queues up at BlueMART Vending Machine
+======================= T:6=======================
+[Waiting-to-Enter Queue]: D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4
+[Food Stall: PigPan Deli]: D2-D5
+[Food Stall: BlueMART Vending Machine]: D3-D6
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D7 queues up at Bamboo Shop
+======================= T:7=======================
+[Waiting-to-Enter Queue]: D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4-D7
+[Food Stall: PigPan Deli]: D2-D5
+[Food Stall: BlueMART Vending Machine]: D3-D6
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D8 queues up at PigPan Deli
+======================= T:8=======================
+[Waiting-to-Enter Queue]: D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4-D7
+[Food Stall: PigPan Deli]: D2-D5-D8
+[Food Stall: BlueMART Vending Machine]: D3-D6
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D9 queues up at BlueMART Vending Machine
+======================= T:9=======================
+[Waiting-to-Enter Queue]: D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4-D7
+[Food Stall: PigPan Deli]: D2-D5-D8
+[Food Stall: BlueMART Vending Machine]: D3-D6-D9
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D10 queues up at Bamboo Shop
+======================= T:10=======================
+[Waiting-to-Enter Queue]: D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4-D7-D10
+[Food Stall: PigPan Deli]: D2-D5-D8
+[Food Stall: BlueMART Vending Machine]: D3-D6-D9
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D11 queues up at PigPan Deli
+======================= T:11=======================
+[Waiting-to-Enter Queue]: D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D1-D4-D7-D10
+[Food Stall: PigPan Deli]: D2-D5-D8-D11
+[Food Stall: BlueMART Vending Machine]: D3-D6-D9
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D1 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+@D12 queues up at BlueMART Vending Machine
+======================= T:12=======================
+[Waiting-to-Enter Queue]: D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10
+[Food Stall: PigPan Deli]: D2-D5-D8-D11
+[Food Stall: BlueMART Vending Machine]: D3-D6-D9-D12
+[Waiting-to-Seat Queue]: D1
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: 
+
+@D1 sits at Table 1.
+@D2 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D4 orders from Bamboo Shop, and will need to wait for 9 periods.
+@D13 queues up at Bamboo Shop
+======================= T:13=======================
+[Waiting-to-Enter Queue]: D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13
+[Food Stall: PigPan Deli]: D5-D8-D11
+[Food Stall: BlueMART Vending Machine]: D3-D6-D9-D12
+[Waiting-to-Seat Queue]: D2
+[Table 1]: D1
+[Table 2]: 
+[Done Queue]: 
+
+@D1 will need 28 periods to eat his/her meal.
+@D2 sits at Table 1.
+@D3 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D5 orders from PigPan Deli, and will need to wait for 9 periods.
+@D14 queues up at PigPan Deli
+======================= T:14=======================
+[Waiting-to-Enter Queue]: D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13
+[Food Stall: PigPan Deli]: D5-D8-D11-D14
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12
+[Waiting-to-Seat Queue]: D3
+[Table 1]: D1-D2
+[Table 2]: 
+[Done Queue]: 
+
+@D2 will need 28 periods to eat his/her meal.
+@D3 sits at Table 1.
+@D6 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+@D15 queues up at BlueMART Vending Machine
+======================= T:15=======================
+[Waiting-to-Enter Queue]: D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13
+[Food Stall: PigPan Deli]: D5-D8-D11-D14
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+@D3 will need 28 periods to eat his/her meal.
+@D16 queues up at Bamboo Shop
+======================= T:16=======================
+[Waiting-to-Enter Queue]: D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+@D17 queues up at PigPan Deli
+======================= T:17=======================
+[Waiting-to-Enter Queue]: D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+@D18 queues up at BlueMART Vending Machine
+======================= T:18=======================
+[Waiting-to-Enter Queue]: D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15-D18
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+======================= T:19=======================
+[Waiting-to-Enter Queue]: D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15-D18
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+======================= T:20=======================
+[Waiting-to-Enter Queue]: D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15-D18
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+======================= T:21=======================
+[Waiting-to-Enter Queue]: D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15-D18
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+======================= T:22=======================
+[Waiting-to-Enter Queue]: D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D4-D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15-D18
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+@D4 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:23=======================
+[Waiting-to-Enter Queue]: D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16
+[Food Stall: PigPan Deli]: D5-D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15-D18
+[Waiting-to-Seat Queue]: D4
+[Table 1]: D1-D2-D3
+[Table 2]: 
+[Done Queue]: 
+
+@D4 sits at Table 1.
+@D5 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D7 orders from Bamboo Shop, and will need to wait for 9 periods.
+@D19 queues up at Bamboo Shop
+======================= T:24=======================
+[Waiting-to-Enter Queue]: D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17
+[Food Stall: BlueMART Vending Machine]: D6-D9-D12-D15-D18
+[Waiting-to-Seat Queue]: D5
+[Table 1]: D1-D2-D3-D4
+[Table 2]: 
+[Done Queue]: 
+
+@D4 will need 28 periods to eat his/her meal.
+@D5 sits at Table 2.
+@D6 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D8 orders from PigPan Deli, and will need to wait for 9 periods.
+@D20 queues up at PigPan Deli
+======================= T:25=======================
+[Waiting-to-Enter Queue]: D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18
+[Waiting-to-Seat Queue]: D6
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5
+[Done Queue]: 
+
+@D5 will need 28 periods to eat his/her meal.
+@D6 sits at Table 2.
+@D9 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+@D21 queues up at BlueMART Vending Machine
+======================= T:26=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+@D6 will need 28 periods to eat his/her meal.
+======================= T:27=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+======================= T:28=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+======================= T:29=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+======================= T:30=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+======================= T:31=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+======================= T:32=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+======================= T:33=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D7-D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: 
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+@D7 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:34=======================
+[Waiting-to-Enter Queue]: D22-D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19
+[Food Stall: PigPan Deli]: D8-D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: D7
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6
+[Done Queue]: 
+
+@D7 sits at Table 2.
+@D8 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D10 orders from Bamboo Shop, and will need to wait for 9 periods.
+@D22 queues up at Bamboo Shop
+======================= T:35=======================
+[Waiting-to-Enter Queue]: D23-D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20
+[Food Stall: BlueMART Vending Machine]: D9-D12-D15-D18-D21
+[Waiting-to-Seat Queue]: D8
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6-D7
+[Done Queue]: 
+
+@D7 will need 28 periods to eat his/her meal.
+@D8 sits at Table 2.
+@D9 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D11 orders from PigPan Deli, and will need to wait for 9 periods.
+@D23 queues up at PigPan Deli
+======================= T:36=======================
+[Waiting-to-Enter Queue]: D24-D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21
+[Waiting-to-Seat Queue]: D9
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: 
+
+@D8 will need 28 periods to eat his/her meal.
+@D12 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+@D24 queues up at BlueMART Vending Machine
+======================= T:37=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D9
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: 
+
+======================= T:38=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D9
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: 
+
+======================= T:39=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D9
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: 
+
+======================= T:40=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D9
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: 
+
+======================= T:41=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D9
+[Table 1]: D1-D2-D3-D4
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: 
+
+@D1 is done.
+======================= T:42=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D9
+[Table 1]: D2-D3-D4
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1
+
+@D2 is done.
+@D9 sits at Table 1.
+======================= T:43=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: 
+[Table 1]: D3-D4-D9
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2
+
+@D3 is done.
+@D9 will need 28 periods to eat his/her meal.
+======================= T:44=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D10-D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: 
+[Table 1]: D4-D9
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+@D10 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:45=======================
+[Waiting-to-Enter Queue]: D25-D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22
+[Food Stall: PigPan Deli]: D11-D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D10
+[Table 1]: D4-D9
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+@D10 sits at Table 1.
+@D11 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D13 orders from Bamboo Shop, and will need to wait for 9 periods.
+@D25 queues up at Bamboo Shop
+======================= T:46=======================
+[Waiting-to-Enter Queue]: D26-D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23
+[Food Stall: BlueMART Vending Machine]: D12-D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D11
+[Table 1]: D4-D9-D10
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+@D10 will need 28 periods to eat his/her meal.
+@D11 sits at Table 1.
+@D12 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D14 orders from PigPan Deli, and will need to wait for 9 periods.
+@D26 queues up at PigPan Deli
+======================= T:47=======================
+[Waiting-to-Enter Queue]: D27-D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24
+[Waiting-to-Seat Queue]: D12
+[Table 1]: D4-D9-D10-D11
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+@D11 will need 28 periods to eat his/her meal.
+@D15 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+@D27 queues up at BlueMART Vending Machine
+======================= T:48=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D12
+[Table 1]: D4-D9-D10-D11
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+======================= T:49=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D12
+[Table 1]: D4-D9-D10-D11
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+======================= T:50=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D12
+[Table 1]: D4-D9-D10-D11
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+======================= T:51=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D12
+[Table 1]: D4-D9-D10-D11
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+======================= T:52=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D12
+[Table 1]: D4-D9-D10-D11
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3
+
+@D4 is done.
+======================= T:53=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D12
+[Table 1]: D9-D10-D11
+[Table 2]: D5-D6-D7-D8
+[Done Queue]: D1-D2-D3-D4
+
+@D5 is done.
+@D12 sits at Table 1.
+======================= T:54=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: 
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D6-D7-D8
+[Done Queue]: D1-D2-D3-D4-D5
+
+@D6 is done.
+@D12 will need 28 periods to eat his/her meal.
+======================= T:55=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D13-D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: 
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+@D13 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:56=======================
+[Waiting-to-Enter Queue]: D28-D29-D30
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25
+[Food Stall: PigPan Deli]: D14-D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D13
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+@D13 sits at Table 2.
+@D14 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D16 orders from Bamboo Shop, and will need to wait for 9 periods.
+@D28 queues up at Bamboo Shop
+======================= T:57=======================
+[Waiting-to-Enter Queue]: D29-D30
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26
+[Food Stall: BlueMART Vending Machine]: D15-D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D14
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8-D13
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+@D13 will need 28 periods to eat his/her meal.
+@D14 sits at Table 2.
+@D15 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D17 orders from PigPan Deli, and will need to wait for 9 periods.
+@D29 queues up at PigPan Deli
+======================= T:58=======================
+[Waiting-to-Enter Queue]: D30
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27
+[Waiting-to-Seat Queue]: D15
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8-D13-D14
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+@D14 will need 28 periods to eat his/her meal.
+@D18 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+@D30 queues up at BlueMART Vending Machine
+======================= T:59=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D15
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8-D13-D14
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+======================= T:60=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D15
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8-D13-D14
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+======================= T:61=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D15
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8-D13-D14
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+======================= T:62=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D15
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8-D13-D14
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+======================= T:63=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D15
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D7-D8-D13-D14
+[Done Queue]: D1-D2-D3-D4-D5-D6
+
+@D7 is done.
+======================= T:64=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D15
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D8-D13-D14
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7
+
+@D8 is done.
+@D15 sits at Table 2.
+======================= T:65=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D13-D14-D15
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8
+
+@D15 will need 28 periods to eat his/her meal.
+======================= T:66=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D16-D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D13-D14-D15
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8
+
+@D16 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:67=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D17-D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D16
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D13-D14-D15
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8
+
+@D16 sits at Table 2.
+@D17 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D19 orders from Bamboo Shop, and will need to wait for 9 periods.
+======================= T:68=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D18-D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D17
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8
+
+@D16 will need 28 periods to eat his/her meal.
+@D18 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D20 orders from PigPan Deli, and will need to wait for 9 periods.
+======================= T:69=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D17-D18
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8
+
+@D21 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+======================= T:70=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D17-D18
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8
+
+======================= T:71=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D17-D18
+[Table 1]: D9-D10-D11-D12
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8
+
+@D9 is done.
+======================= T:72=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D17-D18
+[Table 1]: D10-D11-D12
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9
+
+@D17 sits at Table 1.
+======================= T:73=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D18
+[Table 1]: D10-D11-D12-D17
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9
+
+@D17 will need 28 periods to eat his/her meal.
+======================= T:74=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D18
+[Table 1]: D10-D11-D12-D17
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9
+
+@D10 is done.
+======================= T:75=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D18
+[Table 1]: D11-D12-D17
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10
+
+@D11 is done.
+@D18 sits at Table 1.
+======================= T:76=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D12-D17-D18
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11
+
+@D18 will need 28 periods to eat his/her meal.
+======================= T:77=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D19-D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D12-D17-D18
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11
+
+@D19 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:78=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D20-D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D19
+[Table 1]: D12-D17-D18
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11
+
+@D19 sits at Table 1.
+@D20 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D22 orders from Bamboo Shop, and will need to wait for 9 periods.
+======================= T:79=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D21-D24-D27-D30
+[Waiting-to-Seat Queue]: D20
+[Table 1]: D12-D17-D18-D19
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11
+
+@D19 will need 28 periods to eat his/her meal.
+@D21 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D23 orders from PigPan Deli, and will need to wait for 9 periods.
+======================= T:80=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D20-D21
+[Table 1]: D12-D17-D18-D19
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11
+
+@D24 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+======================= T:81=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D20-D21
+[Table 1]: D12-D17-D18-D19
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11
+
+======================= T:82=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D20-D21
+[Table 1]: D12-D17-D18-D19
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11
+
+@D12 is done.
+======================= T:83=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D20-D21
+[Table 1]: D17-D18-D19
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12
+
+@D20 sits at Table 1.
+======================= T:84=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D21
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12
+
+@D20 will need 28 periods to eat his/her meal.
+======================= T:85=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D21
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D13-D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12
+
+@D13 is done.
+======================= T:86=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D21
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D14-D15-D16
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13
+
+@D14 is done.
+@D21 sits at Table 2.
+======================= T:87=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D15-D16-D21
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14
+
+@D21 will need 28 periods to eat his/her meal.
+======================= T:88=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D22-D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D15-D16-D21
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14
+
+@D22 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:89=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D23-D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D22
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D15-D16-D21
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14
+
+@D22 sits at Table 2.
+@D23 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D25 orders from Bamboo Shop, and will need to wait for 9 periods.
+======================= T:90=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D24-D27-D30
+[Waiting-to-Seat Queue]: D23
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D15-D16-D21-D22
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14
+
+@D22 will need 28 periods to eat his/her meal.
+@D24 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D26 orders from PigPan Deli, and will need to wait for 9 periods.
+======================= T:91=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D23-D24
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D15-D16-D21-D22
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14
+
+@D27 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+======================= T:92=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D23-D24
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D15-D16-D21-D22
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14
+
+======================= T:93=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D23-D24
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D15-D16-D21-D22
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14
+
+@D15 is done.
+======================= T:94=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D23-D24
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D16-D21-D22
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15
+
+@D23 sits at Table 2.
+======================= T:95=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D24
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D16-D21-D22-D23
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15
+
+@D23 will need 28 periods to eat his/her meal.
+======================= T:96=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D24
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D16-D21-D22-D23
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15
+
+@D16 is done.
+======================= T:97=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D24
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D21-D22-D23
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16
+
+@D24 sits at Table 2.
+======================= T:98=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16
+
+@D24 will need 28 periods to eat his/her meal.
+======================= T:99=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D25-D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16
+
+@D25 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:100=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D26-D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D25
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16
+
+@D26 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+@D28 orders from Bamboo Shop, and will need to wait for 9 periods.
+======================= T:101=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D27-D30
+[Waiting-to-Seat Queue]: D25-D26
+[Table 1]: D17-D18-D19-D20
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16
+
+@D17 is done.
+@D27 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+@D29 orders from PigPan Deli, and will need to wait for 9 periods.
+======================= T:102=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D25-D26-D27
+[Table 1]: D18-D19-D20
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17
+
+@D25 sits at Table 1.
+@D30 orders from BlueMART Vending Machine, and will need to wait for 9 periods.
+======================= T:103=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D26-D27
+[Table 1]: D18-D19-D20-D25
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17
+
+@D25 will need 28 periods to eat his/her meal.
+======================= T:104=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D26-D27
+[Table 1]: D18-D19-D20-D25
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17
+
+@D18 is done.
+======================= T:105=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D26-D27
+[Table 1]: D19-D20-D25
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18
+
+@D26 sits at Table 1.
+======================= T:106=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D27
+[Table 1]: D19-D20-D25-D26
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18
+
+@D26 will need 28 periods to eat his/her meal.
+======================= T:107=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D27
+[Table 1]: D19-D20-D25-D26
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18
+
+@D19 is done.
+======================= T:108=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D27
+[Table 1]: D20-D25-D26
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19
+
+@D27 sits at Table 1.
+======================= T:109=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D20-D25-D26-D27
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19
+
+@D27 will need 28 periods to eat his/her meal.
+======================= T:110=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: D28
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: 
+[Table 1]: D20-D25-D26-D27
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19
+
+@D28 retrieves food from Bamboo Shop and goes to Waiting-to-Seat Queue.
+======================= T:111=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: D29
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D28
+[Table 1]: D20-D25-D26-D27
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19
+
+@D29 retrieves food from PigPan Deli and goes to Waiting-to-Seat Queue.
+======================= T:112=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: D30
+[Waiting-to-Seat Queue]: D28-D29
+[Table 1]: D20-D25-D26-D27
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19
+
+@D20 is done.
+@D30 retrieves food from BlueMART Vending Machine and goes to Waiting-to-Seat Queue.
+======================= T:113=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: D28-D29-D30
+[Table 1]: D25-D26-D27
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20
+
+@D28 sits at Table 1.
+======================= T:114=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: D29-D30
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20
+
+@D28 will need 28 periods to eat his/her meal.
+======================= T:115=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: D29-D30
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D21-D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20
+
+@D21 is done.
+======================= T:116=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: D29-D30
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D22-D23-D24
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21
+
+@D29 sits at Table 2.
+======================= T:117=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: D30
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D22-D23-D24-D29
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21
+
+@D29 will need 28 periods to eat his/her meal.
+======================= T:118=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: D30
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D22-D23-D24-D29
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21
+
+@D22 is done.
+======================= T:119=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: D30
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D23-D24-D29
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22
+
+@D30 sits at Table 2.
+======================= T:120=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D23-D24-D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22
+
+@D30 will need 28 periods to eat his/her meal.
+======================= T:121=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D23-D24-D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22
+
+======================= T:122=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D23-D24-D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22
+
+======================= T:123=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D23-D24-D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22
+
+@D23 is done.
+======================= T:124=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D24-D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23
+
+======================= T:125=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D24-D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23
+
+======================= T:126=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D24-D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23
+
+@D24 is done.
+======================= T:127=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24
+
+======================= T:128=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24
+
+======================= T:129=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24
+
+======================= T:130=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24
+
+======================= T:131=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D25-D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24
+
+@D25 is done.
+======================= T:132=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25
+
+======================= T:133=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25
+
+======================= T:134=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D26-D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25
+
+@D26 is done.
+======================= T:135=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26
+
+======================= T:136=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26
+
+======================= T:137=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D27-D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26
+
+@D27 is done.
+======================= T:138=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27
+
+======================= T:139=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27
+
+======================= T:140=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27
+
+======================= T:141=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27
+
+======================= T:142=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: D28
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27
+
+@D28 is done.
+======================= T:143=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28
+
+======================= T:144=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28
+
+======================= T:145=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: D29-D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28
+
+@D29 is done.
+======================= T:146=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29
+
+======================= T:147=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29
+
+======================= T:148=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: D30
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29
+
+@D30 is done.
+======================= T:149=======================
+[Waiting-to-Enter Queue]: 
+[Food Stall: Bamboo Shop]: 
+[Food Stall: PigPan Deli]: 
+[Food Stall: BlueMART Vending Machine]: 
+[Waiting-to-Seat Queue]: 
+[Table 1]: 
+[Table 2]: 
+[Done Queue]: D1-D2-D3-D4-D5-D6-D7-D8-D9-D10-D11-D12-D13-D14-D15-D16-D17-D18-D19-D20-D21-D22-D23-D24-D25-D26-D27-D28-D29-D30
+
+@@ Simulation Done. Great Job!!

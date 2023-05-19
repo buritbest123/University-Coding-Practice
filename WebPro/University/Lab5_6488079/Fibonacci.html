@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fibonacci</title>
+</head>
+
+<body>
+    <script>
+        console.log('Using while loops');
+        console.log('Fibonacci series less than 40');
+        // Set the endpoint of the Fibonacci sequence.
+        let stop = 40;
+
+        // Create variables to hold the last two Fibonacci numbers.
+        let a = 0, b = 1;
+
+        // To compute and log the Fibonacci sequence up to the stopping point, use a while loop.        while (a <= stop) {
+        while (a <= stop) {
+            console.log(a);
+
+            // Add the two most recent Fibonacci numbers to get the next Fibonacci number.            let temp = a + b;
+            let temp = a + b;
+            a = b;
+            b = temp;
+        }
+    </script>
+</body>
+
+</html>

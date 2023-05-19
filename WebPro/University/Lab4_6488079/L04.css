@@ -1,0 +1,147 @@
+/* Setting the font-family for the entire document to sans-serif */
+body {
+    font-family: sans-serif;
+}
+
+/* Setting the background color and text alignment for header and footer elements */
+header,
+footer {
+    background-color: #2E4053;
+    text-align: center;
+    color: #F8F9F9;
+}
+
+/* Setting padding and margin for h1 elements */
+h1 {
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+/* Setting background color, margin and overflow properties for nav elements */
+nav {
+    background-color: #5D6D7E;
+    margin: 0px;
+    overflow: hidden;
+
+    /* Using Flexbox to organize each menu item */
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Setting display, float, color and padding for navigation links */
+nav a {
+    display: block;
+    float: left;
+    color: #FDFEFE;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Setting hover color for navigation links */
+nav a:hover {
+    color: #D2B4DE;
+}
+
+/* Setting padding and using Flexbox to organize sections in the container */
+.container {
+    padding: 10px;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Setting padding, margin, border-radius, background color and border for columns */
+.column {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ECF0F1;
+    border: solid #95A5A6 2px;
+}
+
+/* Setting margin, width, height, and border-radius for dummy boxes */
+.dummy_box {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+/* Setting background color for pink boxes */
+.pink {
+    background-color: #F5B7B1;
+}
+
+/* Setting background color for green boxes */
+.green {
+    background-color: #82E0AA;
+}
+
+/* Setting background color for orange boxes */
+.orange {
+    background-color: #F5B041;
+}
+
+/* Setting padding for dummy text */
+.dummy_text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Media query for screens with a minimum width of 768px */
+@media screen and (min-width: 768px) {
+    /* Setting background color and text alignment for header and footer elements */
+    header, 
+    footer {
+        background-color: #2E4053;
+        text-align: center;
+        color: #F8F9F9; 
+    }
+
+    nav {
+    /* Set the background color of the navigation */
+    background-color: #5D6D7E;
+    /* Remove margins and overflow */
+    margin: 0px;
+    overflow: hidden;
+
+    /* Hint: Put your Flex CSS code here to organize each menu */
+    /* Use Flexbox to center and organize the navigation links */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container {
+    /* Add some padding to the container */
+    padding: 10px;
+
+    /* Hint: Put your Flex CSS code here to organize each section */
+    /* Use Flexbox to organize the content inside the container */
+    display:flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .column {
+        /* Add some padding and margin to the columns */
+        padding: 20px;
+        margin: 10px;
+        /* Set the border radius, background color and border of the columns */
+        border-radius: 20px;
+        background-color: #ECF0F1;
+        border: solid #95A5A6 2px;
+
+        /* Set the width of the columns to 27% */
+        width: 27%;
+    }
+}
