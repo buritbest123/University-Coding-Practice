@@ -28,4 +28,4 @@ The code in this repository is provided under the [MIT License](https://opensour
 
 ## 📬 Contact
 
-If you have any questions or need further assistance, please contact the repository owner at [bestburit32121@gmail.com](mailto:bestburit32121@gmail.com).
+If you have any questions or need further assistance, please contact the repository owner at [bestburit32121@gmail.com](mailto:burit.sih@gmail.com).
