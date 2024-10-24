@@ -1,0 +1,121 @@
+/* Styles for the .movie-search class */
+.movie-search {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Styles for the table within .movie-search class */
+.movie-search table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+}
+
+/* Styles for the header element */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styles for input[type="text"] elements */
+input[type="text"] {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles for input[type="button"] elements */
+input[type="button"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for input[type="button"] elements on hover */
+input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for th and td elements */
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* Styles for th elements */
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styles for even numbered rows in tbody */
+tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+/* Styles for tbody rows on hover */
+tbody tr:hover {
+  background-color: #e9e9e9;
+  cursor: pointer;
+}
+
+/* Styles for modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for modal content */
+.modal-content {
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for modal title */
+.modal-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Styles for modal text */
+.modal-text {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* Styles for modal body */
+.modal-body {
+  padding: 20px;
+}
+
+/* Styles for modal close button */
+.modal-close {
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styles for modal close button on hover */
+.modal-close:hover {
+  color: #000;
+}
