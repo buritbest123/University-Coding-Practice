@@ -21,6 +21,52 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager" selected="Application.o_TWOD_arrays">
+    <configuration name="m_Nested_loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="m_Nested_loops" />
+      <module name="Basic of JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="n_Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="n_Arrays" />
+      <module name="Basic of JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="o_TWOD_arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="o_TWOD_arrays" />
+      <module name="Basic of JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p_String_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p_String_Methods" />
+      <module name="Basic of JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="q_Wrapper_classes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q_Wrapper_classes" />
+      <module name="Basic of JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.o_TWOD_arrays" />
+        <item itemvalue="Application.n_Arrays" />
+        <item itemvalue="Application.q_Wrapper_classes" />
+        <item itemvalue="Application.p_String_Methods" />
+        <item itemvalue="Application.m_Nested_loops" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648400953816</updated>
       <workItem from="1648400954917" duration="13000" />
+      <workItem from="1648650456210" duration="4854000" />
     </task>
     <servers />
   </component>

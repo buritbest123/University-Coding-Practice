@@ -7,11 +7,13 @@ public class a_Intro_Java {
         System.out.println("SUBSCRIBE TO 1 Millions " + "if you'd like to become a fellow BRO!");
         // This is a comment
 
-        /*
-         * This
-         * is
-         * a
-         * comment
+        System.out.print("One");
+        System.out.println("Two" + "Three");
+
+        /* This
+        is
+        a
+        comment
          */
     }
 }

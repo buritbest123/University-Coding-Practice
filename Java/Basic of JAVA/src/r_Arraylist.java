@@ -20,8 +20,9 @@ public class r_Arraylist {
         food.remove(2);
         //food.clear();
 
-        for(int i=0; i<food.size(); i++) {   // Array List used ___.size NOT ___.length
-            System.out.println(food.get(i)); // is equivalence to for (String s : food) {
+        for(int i=0; i<food.size(); i++) {   // ArrayList used ___.size NOT ___.length
+            System.out.println(food.get(i)); // Also the (For loop) is equivalence to (For each)
+                                             // for (String s : food) {
         }                                    // System.out.println(s);
 
         ArrayList<Integer> A_bunch_number = new ArrayList<Integer>();

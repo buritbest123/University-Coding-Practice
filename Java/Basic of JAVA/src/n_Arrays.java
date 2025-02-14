@@ -17,5 +17,14 @@ public class n_Arrays {
             System.out.println(cars[i]);
         }
 
+        String[] company = new String[3];
+
+        company[0] = "apple";
+        company[1] = "samsung";
+        company[2] = "Huawei";
+
+        for (int i = 0; i < company.length; i++) {
+            System.out.println(company[i]);
+        }
     }
 }

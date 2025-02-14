@@ -9,7 +9,7 @@ public class k_While_loop {
         Scanner scanner = new Scanner(System.in);
         String name = "";
 
-        while(name.isBlank()) {
+        while(name.isEmpty()) {
             System.out.print("Enter your name: ");
             name = scanner.nextLine();
         }
